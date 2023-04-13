@@ -1,0 +1,104 @@
+/* Grid */
+
+.canvas {
+    margin: 0 auto;
+    position: relative;
+    background-color:#d6cdc4;
+    width:500px;
+    height: 500px;
+    border:solid #d6cdc4;
+    border-width: 50px;
+
+}
+
+body {
+    background-color: #d6cdc4;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+/* Boxes */
+
+.arrow-up {
+    position: absolute;
+    bottom:0px;
+    left: -70px;
+    border-top: 270px solid transparent;
+    border-bottom: 270px solid transparent;
+    border-right: 270px solid #221e1d;
+}
+.arrow-down {
+    position: absolute;
+    right: 0px;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 130px solid #6c6668;
+}
+.arrow-right {
+    position: absolute;
+    bottom: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid #cea43c;
+    
+}
+.arrow-left {
+    position: absolute;
+    right:0px;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+    border-right: 300px solid #b31a0b;
+}
+
+.arrow-right2 {
+    position: absolute;
+    bottom: 0;
+    border-bottom: 100px solid #ccc4bc;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.arrow-left3 {
+    position: absolute;
+    right: 90px;
+    top: 85px;
+    border-top: 205px solid transparent;
+    border-bottom: 210px solid #b0b5b7;
+    border-right: 210px solid transparent;
+}
+.arrow-up2 {
+    position: absolute;
+    border-top: 180px solid #adb0b5;
+    border-bottom: 180px solid transparent;
+    border-right: 180px solid transparent;
+}
+.arrow-cover {
+    position: absolute;
+    bottom:190px;
+    left: -80px;
+    border-top: 80px solid transparent;
+    border-right: 80px solid #d6cdc4;
+    border-bottom: 80px solid transparent ;
+}
+.arrow-cover2 {
+    position: absolute;
+    bottom:-150px;
+    right: 0px;
+    border-right: 150px solid #d6cdc4;
+    border-bottom: 150px solid transparent;
+}
+.arrow-cover3{
+
+    position: absolute;
+    right: 300px;
+    top: -50px;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #d6cdc4 ;
+}
+.arrow-up1 {
+    position: absolute;
+    right: 130px;
+    top:-40px;
+    border-top: 170px solid transparent;
+    border-bottom: 170px solid transparent;
+    border-left: 170px solid #d6cdc4;
+
+}
